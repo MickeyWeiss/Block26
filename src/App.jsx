@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Contact List from './components/ContactList.jsx'
+import ContactList from './components/ContactList.jsx'
 
 function App() {
   const [selectedContactID, setSelectedContactID] = useState(null)
@@ -10,7 +10,7 @@ function App() {
       {selectedContactID ? (
         <div>Selected Contact View</div>
       ) : (
-        <contactList />
+        <ContactList />
       )}
     </>
   )
